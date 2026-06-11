@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Assistant,-apple-system,BlinkMACSystemfont,Segoe UI,
+    Roboto,Helvetica,Arial,sans-serif;
+    /* all things comes to the corner */
+}
+header{
+    display:flex;
+    /* horizontally values ya kuch bhi print karana like logo action search... */
+    background-color: #ffffff;
+    height:80px;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #b6b1b1;
+}
+.myntra_home{
+    height:45px;
+    width:78px;
+}
+.action_bar{
+    margin-right:4%;
+}
+.nav_bar{
+    display:flex;
+    min-width:500px;
+    justify-content: space-between;
+}
+.nav_bar a{
+    font-size:14px;
+    letter-spacing:.3px;
+    color:#282c3f;
+    font-weight:700px;
+    text-transform:uppercase;
+    text-decoration:none;
+    padding:30px 0;
+    border-bottom:2px solid #ffffff;
+}
+.nav_bar a:hover{
+    border-bottom:2px solid #ff3f6c;
+}
+.nav_bar a sup{
+    color:#ff3f6c;
+    font-size:10px;
+}
+.search_bar{
+    height:40px;
+    min-width:400px;
+    display:flex; 
+    align-items:center;
+}
+.search_icon{
+    box-sizing:content-box;
+    height:20x;
+    padding:8px;
+
+    background-color:#f5f5f6;
+    color:#282c3f;
+    font-weight:300px;
+    border-radius:4px 0 0 4px;
+}
+.search_input{
+    color:#696e79;
+    background-color:#f5f5f6;
+    flex-grow:1;
+    height:40px;
+    border:0;
+    border-radius:0 4px 4px 0;
+}
+.action_bar{
+    display: flex;
+    min-width:200px;
+    justify-content: space-around;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Main section */
+.banner_container{
+    margin:40px 0;
+}
+.banner_image{
+    width :100%;
+}
+
+.category_heading{
+    text-transform:uppercase;
+    color:#3e4152;
+    letter-spacing:.12cm;
+    font-size:0.7cm;
+    margin:50px 0 10px 30px;
+    max-height:5cm;
+    font-weight:700;
+}
+.category_items{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.sale_item{
+    width:250px;
+}
+.footer_container{
+    padding:30px 0px;
+    background:#fafbfc;
+    display:flex;
+    justify-content:space-evenly;
+}
+.footer_container h3{
+    color:#282c3f;
+    font-size:14px;
+    margin-bottom: 25px;
+    
+}
+.footer_column{
+    display:flex;
+    flex-direction:column;
+    font-size:15px;
+    padding-bottom: 5px;
+}
+
